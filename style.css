@@ -308,15 +308,16 @@ header {
     #controls {
       width: 11em;
       height: 7em;
-      margin-left: 0%;
+      margin-left: 2%;
       padding-left: 7%;
     }
     .audio-track {
       width: 9em;
+      margin: 16% 5% 9%;
     }
     button {
-      height: 2.5em;
-      width: 2.5em;
+      height: 2.7em;
+      width: 2.7em;
     }
     i.fa-2x {
       font-size: 1.4em;
@@ -332,6 +333,12 @@ header {
     }
     #img1:hover:after, #img2:hover:after, #img3:hover:after, #img4:hover:after{
       font-size: 0.5em;
+    }
+    div.nav {
+      margin-right: 0;
+    }
+    p {
+      font-size: 0.7em;
     }
   }
   @media screen and (max-width:369px) and (min-width:330px) {
